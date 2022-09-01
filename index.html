@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div id="root">
+
+
+
+  </div>
+  <script type="module">
+    const root = document.getElementById("root");
+    root.style.width = "100px";
+    root.style.height = "100px";
+    root.style.backgroundColor = "yellow";
+
+    console.log(root);
+    const dom = [];
+    function test(count, tagName, attri, attriValue, textNode) {
+      for (let i = 0; i < 10; i++) {
+        dom.push(`<${tagName} ${attri}="${attriValue}=${i + 1}">
+        ${textNode}
+        </${tagName}>`);
+      }
+    }
+    // root.innerHTML = dom.join("");
+    // console.log(dom.join(''));
+    
+    
+    
+    // const dom = [];
+    // function test(count, tagName, attri, attriValue, textNode) {
+    //   for (let i = 0; i < 10; i++) {
+    //     dom.push(`<${tagName * 4}${attri}="${attriValue}=${i + 1}">${textNode}</${tagName}>`);
+    //   }
+    // }
+
+    // const dom = [];
+    // root.innerHTML = dom.join("");
+    // for (let i = 0; i < 10; i++) {
+    //   dom.push(`<div id="test=${i + 1}">good</div>`);
+    // }
+    // console.log(dom.join(''));
+
+    // dom.push(`<div id="test-1">강호동</div>`);
+    // dom.push(`<div id="test-2">이수근</div>`);
+    // dom.push(`<div id="test-3">은지원</div>`);
+    // dom.push(`<div id="test-4">김종민</div>`);
+
+    // function donguk(tagName, textContent) {
+    //   return `<${tagName}>${textContent}</${tagName}>`;
+    // }
+    // let test = donguk("section", "hello") + donguk("article", "념") + donguk("nav", "나는 리신이여");
+    // console.log(test);
+    // console.log(typeof (donguk()));
+    // root.innerHTML = test;
+  </script>
+</body>
+
+</html>
