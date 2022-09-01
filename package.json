@@ -1,0 +1,21 @@
+{
+  "name": "dom20220901",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DongwookJeong/dom20220901.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DongwookJeong/dom20220901/issues"
+  },
+  "homepage": "https://github.com/DongwookJeong/dom20220901#readme",
+  "type": "module"
+  
+}
